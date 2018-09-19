@@ -1,0 +1,34 @@
+@mixin ClearFix {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+@mixin bb-line {
+    border-bottom: 1px solid #c0c0c0;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+@mixin titles-border {
+    padding-bottom: 12px;
+    border-bottom: 6px solid #090909;
+}
+
+@mixin titles-arrows {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-left: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+@mixin subTitle {
+    position: relative;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-left: 25px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
