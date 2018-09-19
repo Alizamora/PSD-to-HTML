@@ -381,5 +381,74 @@ template {
     display: inline; }
   .menu li + li {
     margin-left: 65px; }
+  .menu a {
+    color: #fe9b00;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase; }
+    .menu a:hover .link-active {
+      color: black !important; }
+
+.box {
+  width: 285px;
+  float: left;
+  margin-left: 52px; }
+  .box:first-child {
+    margin-left: 0; }
+
+#list-benifits {
+  padding: 0;
+  padding-left: 30px; }
+  #list-benifits li {
+    list-style: none;
+    position: relative; }
+  #list-benifits li p {
+    margin: 0;
+    line-height: normal; }
+  #list-benifits li + li {
+    margin-top: 20px; }
+  #list-benifits li:before {
+    position: absolute;
+    content: url("../img/layout/check.png");
+    top: 0;
+    left: -30px; }
+
+#rafi-link {
+  margin-top: 30px;
+  color: #090909;
+  font-size: 12px; }
+
+#footer {
+  padding: 30px 0; }
+  #footer p {
+    margin: 0; }
+  #footer .container {
+    position: relative; }
+
+.footer-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  .footer-menu li {
+    float: left; }
+  .footer-menu li + li:before {
+    content: '|';
+    color: #5d5d5d;
+    margin-right: 7px; }
+  .footer-menu li + li:before {
+    content: '|';
+    color: #5d5d5d;
+    margin-right: 7px; }
+  .footer-menu li + li {
+    margin-left: 7px; }
+  .footer-menu a {
+    font-size: 12px;
+    color: #5d5d5d; }
+
+.footer-logo {
+  position: absolute;
+  right: 0;
+  width: 120px;
+  bottom: -15px; }
 
 /*# sourceMappingURL=style.css.map */

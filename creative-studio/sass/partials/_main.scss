@@ -1,0 +1,36 @@
+.box{
+    width: 285px;
+    float: left;
+    margin-left: 52px;
+    &:first-child{
+        margin-left: 0;
+    }
+}
+  
+#list-benifits{
+    padding: 0;
+    padding-left: 30px;
+    li{
+    list-style: none;
+    position: relative;
+    }
+    li p{
+        margin: 0;
+        line-height: normal;
+    }
+    li + li{
+        margin-top: 20px;  
+    }
+    li:before{
+        position: absolute;
+        content: url('../img/layout/check.png');
+        top: 0;
+        left: -30px;
+    }
+}
+  
+#rafi-link{
+    margin-top: 30px;
+    color: #090909;
+    font-size: 12px;
+}
