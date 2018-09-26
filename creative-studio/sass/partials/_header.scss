@@ -1,8 +1,15 @@
 //Header
 
 #header{
-    position: relative;
-    margin-top: 20px;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    border-top: 17px solid #090909;
+}
+
+.cont{
+    width: 960px;
+    margin: 0 auto;
 }
 
 .logo{
@@ -12,7 +19,8 @@
 .correo{
     color: #999898;
     font-size: 13px;
-    position: absolute;
+    position: relative;
     top: 18px;
-    right: 0;
+    /*right: 0;*/
+    left: 65%;
 }

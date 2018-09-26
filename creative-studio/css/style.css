@@ -1,10 +1,11 @@
-.container {
+#container {
   width: 960px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-top: 150px; }
 
 body {
   margin: 0 auto;
-  border-top: 17px solid #090909;
+  /*border-top: 17px solid #090909;*/
   font-family: Arial, Helvetica, sans-serif; }
 
 p {
@@ -359,8 +360,14 @@ template {
   display: none; }
 
 #header {
-  position: relative;
-  margin-top: 20px; }
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  border-top: 17px solid #090909; }
+
+.cont {
+  width: 960px;
+  margin: 0 auto; }
 
 .logo {
   float: left; }
@@ -368,9 +375,10 @@ template {
 .correo {
   color: #999898;
   font-size: 13px;
-  position: absolute;
+  position: relative;
   top: 18px;
-  right: 0; }
+  /*right: 0;*/
+  left: 65%; }
 
 .menu {
   float: right;
@@ -425,30 +433,47 @@ template {
   #footer .container {
     position: relative; }
 
-.footer-menu {
+#footer-menu {
   list-style: none;
   padding: 0;
   margin: 0; }
-  .footer-menu li {
+  #footer-menu li {
     float: left; }
-  .footer-menu li + li:before {
+  #footer-menu li + li:before {
     content: '|';
     color: #5d5d5d;
     margin-right: 7px; }
-  .footer-menu li + li:before {
+  #footer-menu li + li:before {
     content: '|';
     color: #5d5d5d;
     margin-right: 7px; }
-  .footer-menu li + li {
+  #footer-menu li + li {
     margin-left: 7px; }
-  .footer-menu a {
+  #footer-menu a {
     font-size: 12px;
     color: #5d5d5d; }
 
-.footer-logo {
+#footer-logo {
   position: absolute;
   right: 0;
   width: 120px;
   bottom: -15px; }
+
+.info-box-left {
+  width: 660px;
+  float: left; }
+
+.info-box-right {
+  width: 225px;
+  float: right; }
+  .info-box-right a + a {
+    margin-left: 14px; }
+
+#portfolio-img {
+  display: block;
+  float: left; }
+
+#portfolio-img + .portfolio-img {
+  margin-left: 34px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,10 +1,10 @@
 //Estilos del portafolio
 
-.portfolio-img{
+#portfolio-img{
     display: block;
     float: left;
 }
   
-.portfolio-img + .portfolio-img{
+#portfolio-img + .portfolio-img{
     margin-left: 34px;
 }
